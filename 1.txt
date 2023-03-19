@@ -1,0 +1,48 @@
+变量
+
+
+win  
+colorSpace 默认rgb，但是有点反人类
+allowGUI
+win_size
+
+tex_left  
+tex_right
+
+
+config_pos  //配置刺激的数量、位置和大小
+	stim_length
+	stim_width
+	stim_pos   //闪烁的位置
+	stim_sizes  //闪烁的大小
+
+config_text  //配置文本内容、大小以及颜色
+	text_stimulus   //提示实验开始的文本
+
+config_response  // 配置在线实验中的反馈 KeyboardInterface是
+
+config_index  //配置提示信息，使用的是下三角（Unicode: \u2BC60）
+	index_stimuli  提示
+
+config_color  //配置其它参数
+	refresh_rate  //屏幕刷新率
+	stim_time  //刺激时间
+	stim_color  //（n_frames, n_elements, 3）帧*刺激编号*3个通道
+	stim_opacities  //透明度
+	stim_frames  //stim_time*refresh_rate 刺激时间*刷新率=刺激呈现的帧数
+	
+	stim_oris
+	stim_sfs
+	stim_contrs
+	
+	freqs  //刺激频率
+	phases  //刺激相位
+
+	stim_colors  //正弦刺激
+
+
+
+	
+	
+	
+
